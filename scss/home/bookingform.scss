@@ -1,0 +1,340 @@
+.booking-form {
+    max-width: 1280px;
+     min-height: 900px;
+     margin: 0 auto;
+     //background-color: red;
+ 
+     ::placeholder {
+         color: #000;
+         padding-left: 10px;
+     }
+ 
+ 
+     h1 {
+         color: #000;
+         font-family: proxima-nova, sans-serif;
+         font-size: 60px;
+         font-style: normal;
+        margin-left: 185px;
+     }
+ 
+    input {
+        border: #79ADDC 1.5px solid;
+        
+     } 
+     .all-forms {
+         width: 900px;
+         margin: 0 auto;
+         align-self: center;
+         //background-color: greenyellow;
+ 
+         .form-group {
+             width: 820px;
+             margin: 0 auto;
+             align-self: center;
+             //background-color: grey;
+             display: inline-block;
+ 
+             #name {
+                 //background-color: blue;
+                 width: 360px;
+                 height: 58px;
+                 float: left;
+                 //margin-left: -25px;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+             }
+             #email {
+                 //background-color: blue;
+                 width: 480px;
+                 height: 58px;
+                 float: right;
+                 margin-right: -80px;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+             }
+             #country {
+                 //background-color: blue;
+                 width: 360px;
+                 height: 58px;
+                 float: left;
+                 //margin-left: -25px;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+             }
+             #hotel {
+                 //background-color: blue;
+                 width: 480px;
+                 height: 58px;
+                 float: right;
+                 margin-right: -80px;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+             }
+ 
+             #check-in {
+                 color: #000;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+                 //margin-left: -25px;
+                 float: left;
+                 padding-top: 15px;
+                 
+             }
+             #check-in-date {
+                 width: 750px;
+                 height: 58px;
+                 float: right;
+                 margin-right: -80px;
+                 color: #000;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+                 padding-left: 10px;
+ 
+             }
+             #check-out {
+                 color: #000;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+                 float: left;
+                 //margin-left: -25px;
+                 padding-top: 15px;
+                 
+                 
+             }
+             #check-out-date {
+                 width: 750px;
+                 height: 58px;
+                 float: right;
+                 margin-right: -80px;
+                 color: #000;
+                 font-family: gill-sans-nova, sans-serif;
+                 font-size: 18px;
+                 font-style: normal;
+                 padding-left: 10px;
+             }
+         }        
+ .form-group-people {
+ 
+         width: 900px;
+         margin: 0 auto;
+         align-self: center;
+         //background-color: peru;
+       select { 
+            border: #79ADDC 1.5px solid;
+         }
+ 
+     .adult-div {
+         color: #000;
+         font-family: gill-sans-nova, sans-serif;
+         font-size: 18px;
+         font-style: normal;
+         //margin-left: -25px;
+         padding-right: 155px;
+     }
+     #adult {
+             width: 103px;
+             height: 58px;
+     }
+     .children-div {
+         color: #000;
+         font-family: gill-sans-nova, sans-serif;
+         font-size: 18px;
+         font-style: normal;
+        // margin-left: -25px;
+        padding-right: 190px;
+     }
+     #children {
+             width: 103px;
+             height: 58px;
+     }
+     .rooms-div {
+         color: #000;
+         font-family: gill-sans-nova, sans-serif;
+         font-size: 18px;
+         font-style: normal;
+        // margin-left: -25px;
+     }
+     #rooms {
+             width: 103px;
+             height: 58px;
+     }
+ }
+       .form-group-message {
+           padding-top: 10px;
+ 
+        
+ 
+           #subject {
+               width: 900px;
+               height: 192px;
+               color: #000;
+               border: #79ADDC 1.5px solid;
+ 
+             font-family: gill-sans-nova, sans-serif;
+             font-size: 18px;
+             font-style: normal;
+             
+           }
+       }
+        
+       #submitButton {
+         width: 900px;
+         height: 58px;
+         background-color: #79ADDC ;
+         border-radius: 30px;
+        
+         font-family: gill-sans-nova, sans-serif;
+         font-size: 18px;
+         font-style: normal;
+         color: #fff;
+         margin: 20px auto 20px;
+       }
+     }
+ }
+
+ 
+@media only screen and (max-width: 1060px) {
+    .booking-form {
+        width:70%;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+
+       
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                //margin-right: 150px;
+            }
+      
+      
+        .all-forms {
+            width: 250px;
+            flex-direction: column;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            .form-group {
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+                #name {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+                #email {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+                #country {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+                #hotel {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+                
+                #check-in-date {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 10px;
+                }
+                #check-out-date {
+                    width:100%;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 10px;
+                }
+            }
+            .form-group-people {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+
+                #adults {
+                    width:100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin: 0 auto;
+                    
+                }
+                .adult {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                  
+                }
+                #child {
+                    width:100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin: 0 auto;
+                }
+                .children {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+                #room {
+                    width:100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin: 0 auto;
+                }
+                .rooms {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin-bottom: 30px;
+                }
+            }
+            .form-group-message {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+                padding-right: 0px;
+
+                #subject {
+                    width:100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    margin: 0 auto;
+                }
+       
+            }
+            #submitButton {
+                width:100%;
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+}

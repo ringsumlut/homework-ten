@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Fly</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fab6oju.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <span id="app">
+    <section class="hero">
+      <nav>
+        <div><img src="../images/logo-white.png" alt="White Logo" /></div>
+
+        <div class="links">
+          <div><a id="home" href="#">home</a></div>
+          <div class="pipe"></div>
+          <div><a id="about" href="#">about</a></div>
+          <div class="pipe"></div>
+          <div><a id="tours" href="#">tours</a></div>
+          <div class="pipe"></div>
+          <div><a id="specialoffers" href="#">special offers</a></div>
+          <div class="pipe"></div>
+          <div><a id="blog" href="#">blog</a></div>
+          <div class="pipe"></div>
+          <div><a id="contact" href="#">contact</a></div>
+        </div>
+      </nav>
+      <section class="hero-over">
+        <div class="hero-head">travel-fly</div>
+        <div class="hero-info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+          aliquid minus nemo sed est.
+        </div>
+        <div class="hero-button">READ MORE</div>
+      </section>
+    </section>
+    <section class="promo-tours">
+      <div class="promo israel">
+        <div class="promo-loc">ISRAEL</div>
+        <div class="promo-price">FROM $1,000</div>
+        <div class="learn-button">LEARN MORE</div>
+      </div>
+
+      <div class="promo usa">
+        <div class="promo-loc">U.S.A.</div>
+        <div class="promo-price">FROM $1,500</div>
+        <div class="learn-button">LEARN MORE</div>
+      </div>
+      <div class="promo aus">
+        <div class="promo-loc">AUSTRALIA</div>
+        <div class="promo-price">FROM $1,800</div>
+        <div class="learn-button">LEARN MORE</div>
+      </div>
+    </section>
+    <section class="booking-form">
+        <h1>Booking form</h1>
+        <div class="all-forms">
+        <div class="form-group">
+            <input type="text" id="name" name="visitor-name" placeholder="name...">
+            <input type="text" id="email" name="email-address" placeholder="email...">
+        </div>
+        <div class="form-group">
+            <input type="text" id="country" name="country-name" placeholder="country...">
+            <input type="text" id="hotel" name="hotel-name" placeholder="hotel...">
+        </div>
+        <div class="form-group">
+            <label for="check-in" id="check-in">Check-in</label>
+            <input type="date" id="check-in-date" name="checkin" >
+        </div>
+        <div class="form-group">
+            <label for="check-out" id="check-out">Check-out</label>
+            <input type="date" id="check-out-date" name="checkout" >
+        </div>
+        <div class="form-group-people">
+            <span class="adult-div">
+            <label for="adult" id="adults">Adults</label>
+            <select class="adult" name="adult" id="adult">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+        </span>
+        <span class="children-div">
+            <label for="children" id="child">Children</label>
+            <select class="children" name="children" id="children">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+            </span>
+            <span class="rooms-div">
+            <label for="rooms" id="room">Rooms</label>
+            <select class="rooms" name="rooms" id="rooms">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+            </span>
+        </div>
+        <div class="form-group-message">
+            <textarea id="subject" name="subject" placeholder="Message..."></textarea>
+        </div>
+        <input type="submit" id="submitButton" value="SUBMIT">
+    </div>
+    </section>
+      </span>
+      <footer>
+        <div class="logo"></div>
+        <p>Copyright 2019 travel-fly.  All rights reserved</p>
+        <div class="socialMedia">  
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
+    
+     
+

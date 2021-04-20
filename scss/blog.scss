@@ -1,0 +1,102 @@
+.blog-main-div{
+  max-width: 980px;
+  min-height: 60px;
+  margin: 55.5px auto 0 auto;
+h1 {
+  color: #000;
+  letter-spacing: 7px;
+  font-family:Proxima;
+
+}
+.blog-line {
+  background-color: #000;
+  width: 106px;
+  height: 2px;
+  margin-bottom: 35.5px;
+}
+.blog-1 {
+  display: flex;
+  margin-bottom: 100px;
+  .date {
+      width: 100px;
+      height: 60px;
+      background-color:#79ADDC ;
+      align-items: center;
+      display:column;
+      .day {
+          color: #fff;
+          font-size: 22px;
+          font-family: gill-sans-nova, sans-serif;
+          text-align: center;
+      }
+      .month {
+          font-size: 12px;
+          color: #fff;
+          font-family: gill-sans-nova, sans-serif;
+          text-align: center;
+          
+      }
+  }
+
+  .blog-details{
+      margin-left: 20px;
+      .blog-image {
+          width: 900px;
+          height: 259px;
+          background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/blog.jpg);
+          background-repeat: no-repeat;
+          background-position: center ;
+          background-size: cover;
+      }
+      h2 {
+          width: 300px;
+          height: 32px;
+          margin-top: 20px;
+          font-family: gill-sans-nova, sans-serif;
+          overflow: hidden;
+       
+      }
+      .blog-paragraph {
+          width: 350px;
+          height: 80px;
+          color:#79ADDC;
+          font-family: gill-sans-nova, sans-serif;
+          overflow: hidden;
+          font-size: 13px;
+          font-weight: 700;
+      }
+  }
+
+}
+}
+
+@media all and (max-width: 1200px) {
+.blog-main-div {
+  .blog-1 {
+      flex-direction: column;
+      align-items: center;
+      
+      .date {
+          margin-bottom: 20px;
+      }
+
+      .blog-details {
+          .blog-image {
+              width: 500px;
+              height: 259px;
+             
+              h2 {
+                  margin: 0 auto;
+                  text-align: center;
+              }
+              .blog-paragraph {
+                  margin: 0 auto;
+                  text-align: center;
+              }
+          }
+      }
+  
+  }
+}
+}

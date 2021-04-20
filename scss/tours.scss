@@ -1,0 +1,132 @@
+.content {
+    .tour-head {
+      @include center(980px, 50px auto 0 auto);
+      height: 200px;
+      background-image: $overlay-b, url(../images/tours-header.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      span {
+        font-family: Proxima;
+        text-transform: uppercase;
+        color: white;
+        font-size: 60px;
+      }
+    }
+    .tour-space {
+      @include center(818px, 48px auto 0 auto);
+      min-height: 304px;
+   
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  
+      .tour-promo {
+        width: 236px;
+        height: 304px;
+        margin-bottom: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        .promo-loc {
+          font-family: Proxima;
+          font-size: 60px;
+          color: white;
+        }
+  
+        .promo-price {
+          font-family: Proxima;
+          font-size: 30px;
+          margin-bottom: 40px;
+          color: white;
+        }
+  
+        .promoBtn {
+          @include siteButton;
+          a {
+            text-decoration: none;
+            color: white;
+            font-family: Gil;
+            font-size: 15px;
+          }
+        }
+      }
+  
+      .tour-promo.isr {
+        background-image: $overlay-b, url(../images/tour-01.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.usa {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-02.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.aus {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-03.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.new {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-04.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.fra {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-05.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.egy {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-06.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.jap {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-07.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.can {
+        background-image: $overlay-b, url(../images/tour-08.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .tour-promo.uae {
+        background-image: linear-gradient(to right, $overlay, $overlay),
+          url(../images/tour-09.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+  
+  @media all and (max-width: 1200px) {
+    .content {
+      .tour-space {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
